@@ -1091,7 +1091,7 @@ PrefabInstance:
     - target: {fileID: 1351113416339472123, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4105363
+      value: -8.79
       objectReference: {fileID: 0}
     - target: {fileID: 1351113416339472123, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
@@ -1101,7 +1101,7 @@ PrefabInstance:
     - target: {fileID: 1351113416339472123, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.0448155
+      value: 6.04
       objectReference: {fileID: 0}
     - target: {fileID: 1351113416339472123, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
@@ -1141,37 +1141,162 @@ PrefabInstance:
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: _dialogueBlocks.Array.size
-      value: 2
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[0].speaker
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: _dialogueBlocks.Array.data[1].speaker
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[2].speaker
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[3].speaker
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[4].speaker
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[5].speaker
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: _dialogueBlocks.Array.data[0]._lines.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: _dialogueBlocks.Array.data[1]._lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[2]._lines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
+      propertyPath: _dialogueBlocks.Array.data[3]._lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[4]._lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[5]._lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
       propertyPath: _dialogueBlocks.Array.data[0]._lines.Array.data[0]
-      value: Hola soy el 2do npc
+      value: "Ni\xF1o, qu\xE9 haces ah\xED?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[0]._lines.Array.data[1]
+      value: "\xBFSabes qu\xE9 es este lugar?"
       objectReference: {fileID: 0}
     - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: _dialogueBlocks.Array.data[1]._lines.Array.data[0]
-      value: Ta bueno
+      value: "\xBFAcaso se te olvid\xF3 mi nombre?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[1]._lines.Array.data[1]
+      value: Jajaja no importa...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[1]._lines.Array.data[2]
+      value: Tampoco te has de acordar cuando jugabamos a las escondidas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[1]._lines.Array.data[3]
+      value: Tampoco te has de acordar cuando jugabamos a las escondidas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[2]._lines.Array.data[0]
+      value: "\xBFA las escondidas?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[2]._lines.Array.data[1]
+      value: Jajaja no importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[2]._lines.Array.data[2]
+      value: Tampoco te has de acordar cuando jugabamos a las escondidas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[3]._lines.Array.data[0]
+      value: "S\xED, jugabamos siempre que pod\xEDas"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[3]._lines.Array.data[1]
+      value: "Y siempre me encontrabas y yo perd\xEDa"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[3]._lines.Array.data[2]
+      value: "\xBFPuedo esta vez ser yo quien te busque?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[4]._lines.Array.data[0]
+      value: "Oh claro, est\xE1 bien"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[4]._lines.Array.data[1]
+      value: No me acordaba ser bueno buscando
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[4]._lines.Array.data[2]
+      value: "\xBFPuedo esta vez ser yo quien te busque?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[5]._lines.Array.data[0]
+      value: Preparate, no esta vez
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[5]._lines.Array.data[1]
+      value: Voy a contar desde 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410168486500379933, guid: a360d1b14499475459eb03e703f75f0f,
+        type: 3}
+      propertyPath: _dialogueBlocks.Array.data[5]._lines.Array.data[2]
+      value: "\xA1T\xFA escondete!"
       objectReference: {fileID: 0}
     - target: {fileID: 8429609469745441793, guid: a360d1b14499475459eb03e703f75f0f,
         type: 3}
       propertyPath: m_Name
-      value: NPC (1)
+      value: Hijo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1266,12 +1391,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
+  m_fontSize: 2.25
   m_fontSizeBase: 5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 2.25
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
