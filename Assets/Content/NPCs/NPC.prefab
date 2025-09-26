@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5993572179634371248}
   - component: {fileID: 3182963766165292742}
   m_Layer: 0
-  m_Name: Timer
+  m_Name: Timer/Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb2010c48206376408405203ad896f69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text: {fileID: 3182963766165292742}
+  _textNPC: {fileID: 3182963766165292742}
   _explotions:
   - {fileID: 1007127540951276732, guid: 3ace37360f306cb4aac03640550fa9ef, type: 3}
   - {fileID: 1620140131458704099, guid: 57e5b83dfee152a47aedf7d83c83e9f5, type: 3}
@@ -250,6 +250,7 @@ MonoBehaviour:
   - {fileID: 3352391191284423565, guid: 9571e0e1b1e65834cbba759493c171d3, type: 3}
   _explotionShakeData: {fileID: 11400000, guid: 8695c162331e7174da834250ef15ad6c,
     type: 2}
+  _dialogueBlocks: []
 --- !u!1001 &5025371399351691997
 PrefabInstance:
   m_ObjectHideFlags: 0
